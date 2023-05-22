@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FakeStore Ecommerce</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FakeStore Ecommerce</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showAllProducts()">All Products</a></li>
+        <li><a href="#" onclick="showProductsByCategory('electronics')">Electronics</a></li>
+        <li><a href="#" onclick="showProductsByCategory('jewelery')">Jewelery</a></li>
+        <li><a href="#" onclick="showCart()">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- Product listing and single product pages will be dynamically updated here -->
+  </main>
+
+  <footer>
+    <p>&copy; 2023 FakeStore Ecommerce. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
